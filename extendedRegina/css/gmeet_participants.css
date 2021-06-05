@@ -1,0 +1,17 @@
+.rua5Nb,
+.cylMye
+.wnPUne,
+.N0PJ8e
+{
+    filter: blur(10px) grayscale(1);
+    transition-delay: 0s;
+}
+
+.rua5Nb:hover,
+.cylMye:hover,
+.wnPUne:hover,
+.N0PJ8e:hover 
+{
+    filter: blur(0) grayscale(0);
+    transition-delay: 0.3s;
+}

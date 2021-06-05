@@ -1,0 +1,15 @@
+.oIy2qc,
+.YTbUzc,
+.MuzmKe
+{
+  filter: blur(8px) grayscale(1);
+  transition-delay: 0s;
+}
+
+.oIy2qc:hover,
+.YTbUzc:hover,
+.MuzmKe:hover
+{
+  filter: blur(0) grayscale(0);
+  transition-delay: 0.3s;
+}

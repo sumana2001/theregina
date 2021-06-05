@@ -1,0 +1,18 @@
+.ADivge,
+.DLjNp,
+.LlMNQd,
+.IvyFpe
+{
+    filter: blur(20px) grayscale(1);
+    transition-delay: 0s;
+}
+
+.jmSZUc:hover,
+.ADivge:hover,
+.DLjNp:hover,
+.LlMNQd:hover,
+.IvyFpe:hover
+{
+    filter: blur(0) grayscale(0);
+    transition-delay: 0.3s;
+}

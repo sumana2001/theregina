@@ -1,0 +1,19 @@
+.zWfAib,
+.Z319Jd,
+.eFmLfc,
+.nrxduf,
+.a1pVef
+{
+    filter:blur(50px) grayscale(1);
+    transition-duration: 0ms;
+}
+
+.zWfAib:hover,
+.Z319Jd:hover,
+.eFmLfc:hover,
+.nrxduf:hover,
+.a1pVef:hover
+{
+    filter:blur(0) grayscale(0);
+    transition-duration: 0.3ms;
+}

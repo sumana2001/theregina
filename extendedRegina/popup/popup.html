@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./popup.css">
+</head>
+
+<body>
+    <div class="header">
+      
+        <p class="main_toggle">
+            <input type="checkbox" id="mainButton"><label class="l2" for="mainButton" title="Toggles service on/off"> Turn on the extension</label>
+        </p>   
+        <h1>The Regina 👑</h1>   
+    </div>
+    <div class="warpper">
+        <input class="radio" id="one" name="group" type="radio" checked>
+        <input class="radio" id="two" name="group" type="radio">
+        <input class="radio" id="three" name="group" type="radio">
+        
+        <div class="panels">
+            <div class="panel" id="one-panel">
+                <h2>Chat Messages<input type="checkbox" id="gmeet_messages"><label class="l2" for="gmeet_messages" title="Blurs all messages in the chat."> All messages in chat</label></h2>
+                <h2>Participants<input type="checkbox" id="gmeet_participants"><label class="l2" for="gmeet_participants" title="Blurs all participant related data"> Participants</label></h2>
+                <h2>Video<input type="checkbox" id="gmeet_video"><label class="l2" for="gmeet_video" title="Blurs all videos in the call"> Videos</label></p>
+                <h2>User Entry/Exit<input type="checkbox" id="gmeet_entry"><label class="l2" for="gmeet_entry" title="Blurs entry data for new folks"> Entry</label></h2>
+                <h2>User Badge<input type="checkbox" id="gmeet_badge"><label class="l2" for="gmeet_badge" title="Blurs your badge"> User Badge </label></h2>
+            </div>
+            <div class="panel" id="four-panel">
+                <h2>Chat Messages<input class="checks" type="checkbox" id="general_messages"><label class="l2" for="general_messages" title="Blurs all messages in the chat."> All messages in chat</label></h2>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+:root {
+  --primary: #252525;
+  --secondary: #ff0000;
+}
+
+body {
+  background: #fff;
+  font-family: "Courier New", Courier, monospace;
+  width: 400px;
+}
+.header h2 {
+  color: var(--primary);
+  font-size: 3em;
+  display: inline;
+  margin: 5px;
+}
+.header h6 {
+  color: #25d366;
+  font-size: 0.5rem;
+  display: inline;
+}
+.warpper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panels {
+  background: #fffffff6;
+  min-height: 200px;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  padding: 20px;
+}
+.panel {
+  display: none;
+  animation: fadein 0.8s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.panel-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.radio {
+  display: none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel {
+  display: block;
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab {
+  background: #fffffff6;
+  color: #000;
+  border-top: 3px solid #000;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.l2 {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: #cacaca;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  top: -2px;
+  float: right;
+}
+.l2:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+input[type="checkbox"]:checked + .l2 {
+  background: var(--secondary);
+}
+input[type="checkbox"]:checked + .l2:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+.l2:active:after {
+  width: 10px;
+}
+.main_toggle {
+  align-items: center;
+  font-size: 1.8em;
+}
