@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Form, Button, Card, Alert } from "react-bootstrap";
+import { Form, Button, Card, Alert, Container } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useHistory } from "react-router-dom";
 
@@ -33,6 +33,7 @@ export default function Signup() {
 
   return (
     <>
+    <Container className="container align-items-center justify-content-center" style={{minHeight:"100vh",maxWidth:"400px",top: "50%"}}>
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Sign Up</h2>
@@ -59,9 +60,9 @@ export default function Signup() {
       <div className="w-100 text-center mt-2">
         Already have an account? <Link to="/login">Log In</Link>
       </div>
+    </Container>
     </>
   );
 }
 
-// useRef is like a “box” that can hold a mutable value in its .current property
-// history is used to check the data from storage
+

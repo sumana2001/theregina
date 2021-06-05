@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+.container{
+    margin-top: 25vh;
+}
+
+.quote{
+    padding-top: 2%;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+}
+
+@media screen and (max-width:768px) {
+    .quote{
+        font-size: 40px;
+    }
+}

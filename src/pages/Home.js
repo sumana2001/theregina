@@ -1,10 +1,11 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
-import { InfoSection } from "./index";
+import { Footer, InfoSection, Navbar } from "./index";
 
 function Home() {
   return (
     <>
+    <Navbar/>
       <div id="home">
         <InfoSection {...homeObjOne} />
       </div>
@@ -17,6 +18,7 @@ function Home() {
       <div id="strong">
         <InfoSection {...homeObjFour} />
       </div>
+      <Footer/>
     </>
   );
 }

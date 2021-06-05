@@ -16,7 +16,6 @@ function App() {
       <div>
         <Router>
           <AuthProvider>
-            <Navbar/>
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
@@ -25,7 +24,6 @@ function App() {
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />
             </Switch>
-            <Footer/>
           </AuthProvider>
         </Router>
       </div>

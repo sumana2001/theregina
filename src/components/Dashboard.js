@@ -5,6 +5,7 @@ import { Link, useHistory } from "react-router-dom";
 import Firestore from "../firebase/firestore";
 import { UserInput } from "./UserInput";
 import Graph from "./Graph";
+import Navbar from "./NavDashboard";
 
 export default function Dashboard() {
   const [error, setError] = useState("");
@@ -22,14 +23,12 @@ export default function Dashboard() {
   }
   return (
     <>
-      <Card>
+    <Navbar/>
+      <Card style={{zIndex:1}}>
         <Card.Body>
-          <h2 className="text-center mb-4">Profile</h2>
+          <h1 className="text-center mb-4 quote">Be happy for this moment. This moment is your life.<br/>
+          So, how's your mood today?</h1>
           {error && <Alert variant="danger">{error}</Alert>}
-          <strong>Email:</strong> {currentUser.email}
-          <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
-            Update Profile
-          </Link>
         </Card.Body>
         <Firestore />
       </Card>
