@@ -1,2 +1,18 @@
-<h1 align='center'> The Regina 👑 </h1>
-<img src='https://s3.amazonaws.com/organizer.mlh.io/qrDnGEFQ6aidFMdfgwtVqxMy?response-content-disposition=inline%3B%20filename%3D%22hack-girl-summer-purple_website.png%22%3B%20filename%2A%3DUTF-8%27%27hack-girl-summer-purple_website.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJFCF2ZS25I2RWYBQ%2F20210605%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210605T083207Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=f9da3d7ae18799d5af58255762f3354b075c0bc4505d332ab8f78b5acace8ee5'>
+
+<h1 align='center'> The Regina 👑</h1>
+<img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
+
+
+## Inspiration ⚡
+
+## Workflow ⚙
+
+## How it was built 👷‍♀️
+The product consists of various software subsystems which were combined to make it a complete working prototype. React was used in the front  end of the web application. Firebase was used while authenticating users and Firestore for storing and retriving the key-value pairs. After fetching the data I used chart.js to convert the data into graph to give user a better visual representation. The AR model required AR core, AR Foundation and Unity 3D.And finally the Chrome extension was built in HTML,CSS and vanilla Javascript.  
+
+## Challenges 🥺
+
+
+## What's next for TheRegina 👑
+
+
