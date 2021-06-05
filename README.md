@@ -1,6 +1,7 @@
 
 <h1 align='center'> The Regina 👑</h1>
 <p align='center'>
+<img alt="GitHub" src="https://img.shields.io/github/license/betaoverflow/gaboon?olor=green&style=for-the-badge">&nbsp;
 <img src='http://ForTheBadge.com/images/badges/built-by-developers.svg'>&nbsp;<img src='http://ForTheBadge.com/images/badges/built-with-love.svg'>
 </p>
 <img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
