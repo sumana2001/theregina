@@ -6,6 +6,19 @@ import Firestore from "../firebase/firestore";
 import { UserInput } from "./UserInput";
 import Graph from "./Graph";
 import Navbar from "./NavDashboard";
+import styled from 'styled-components';
+
+const Heading=styled.h1`
+font-family: 'Tangerine', cursive;
+background:black;
+color:#fff;
+margin-top:5%;
+padding-top: 20px;
+padding-bottom:20px;
+width:100%;
+text-align:center;
+font-size: 60px;
+`
 
 export default function Dashboard() {
   const [error, setError] = useState("");
@@ -31,13 +44,15 @@ export default function Dashboard() {
           {error && <Alert variant="danger">{error}</Alert>}
         </Card.Body>
         <Firestore />
+        <Heading>You are beautiful. You are strong. You are worth it!</Heading>
+        
+        <Graph />
       </Card>
-      <Graph />
-      <div className="w-100 text-center mt-2">
-        <Button variant="link" onClick={handleLogout}>
+      <div className="w-100 text-center mt-2" style={{width:"100%",background:"#000"}}>
+        <Button variant="link" onClick={handleLogout} style={{color:"#fff"}}>
           Log Out
         </Button>
-      </div>
+        </div>
     </>
   );
 }

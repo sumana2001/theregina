@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import { useAuth } from "../contexts/AuthContext";
 import firebase from "firebase";
+import './App.css';
 
 const Graph = () => {
   const [chartData, setChartData] = useState({});
@@ -29,7 +30,7 @@ const Graph = () => {
             {
               label: "Happiness Index",
               data: userMood,
-              backgroundColor: ["rgba(75, 192, 192, 0.6)"],
+              backgroundColor: ["#ff0000"],
               borderWidth: 4,
             },
           ],
@@ -44,7 +45,7 @@ const Graph = () => {
     chart();
   }, []);
   return (
-    <div className="App">
+    <div className="graph">
       <div>
         <Line
           data={chartData}

@@ -68,7 +68,7 @@ function Navbar() {
             <NavLogo to="/">THE REGINA</NavLogo>
 
             <NavMenu>
-              <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
+              <Link to="/update-profile" className="btn btn-danger w-100 mt-3">
                 Update Profile
               </Link>
             </NavMenu>

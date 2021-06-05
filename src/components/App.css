@@ -9,6 +9,13 @@
     font-size: 60px;
 }
 
+.graph{
+    width:70%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width:768px) {
     .quote{
         font-size: 40px;
