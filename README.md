@@ -8,10 +8,17 @@
 
 
 ## Inspiration ⚡
-Every 3 out of 5 girl and non binary are in a state of depression. The major reason for this is lack of concern for mental health issues, physical harrasment and lack of privacy due to which they cannot share things. Regina is a latin word which means queen I feel everyone should be given the respect and space they deserve. Through my product I tried to solve all the 3 problem to some extent. 
+In 2017, 46.6 million adults in the U.S. were treated for a mental illness, representing nearly 20% of the adult population, yet the percentage of women being treated for mental illness was almost 50% higher than the percentage of men and non binary are not even in the statistics. The gender minorities face a lot of mental and physical issues. So I bring to you Regina.
+Regina is latin for Queen. I believe a queen is someone who is mentally strong, physically strong and sometimes when she gets demotivated, she knows how to get back up. This web application helps you become a queen. 
 
 
-## Workflow ⚙
+## What is it? 👸🏻
+The regina consists of three software subsystems. 
+Firstly I have a web application which keeps a track of your happiness index. You simply login to your dashboard and select the emoji best describing your day. Then a graph is generated according to your records. This motivates the person to keep trying to increase their happiness index and keep a check on their mental health. You can also update your profile and if you forget your password, you can reset it and you will receive a secure link to change it in your mail.
+
+The second part of regina is a chrome extension to talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So you can freely talk to anyone anywhere. It can blur videos, chats, participant list etc and you simply hover over it to see.
+
+Lastly, I have an AR application that teaches you some very crucial self-defence moves. You can either watch it in VR on the website or you can also download the app to get the full Augmented Reality experience. You can simply tap on the move you want to learn and the instructor will teach you how to do it.
 
 ## How it was built 👷‍♀️
 The product consists of various software subsystems which were combined to make it a complete working prototype. React was used in the front  end of the web application. Firebase was used while authenticating users and Firestore for storing and retriving the key-value pairs. After fetching the data I used chart.js to convert the data into graph to give user a better visual representation. The web application is hosted on cloud. The AR model required AR core, AR Foundation and Unity 3D.And finally the Chrome extension was built in HTML,CSS and vanilla Javascript.  
