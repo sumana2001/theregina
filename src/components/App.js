@@ -10,6 +10,7 @@ import ForgotPassword from "./ForgotPassword";
 import UpdateProfile from "./UpdateProfile";
 import Home from "../pages/Home";
 import { Footer, Navbar } from "../pages";
+import Safemeet from "./Safemeet";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
               <Route exact path="/" component={Home} />
+              <Route exact path="/safemeet" component={Safemeet} />
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />
