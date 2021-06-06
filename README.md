@@ -3,8 +3,7 @@
 <p align='center'>
 <img src='http://ForTheBadge.com/images/badges/built-by-developers.svg'>&nbsp;<img src='http://ForTheBadge.com/images/badges/built-with-love.svg'>
 </p>
-<img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
-
+<img width="1438" alt="Screenshot 2021-06-06 at 3 22 15 PM" src="https://user-images.githubusercontent.com/63084088/120925406-1adede00-c6f6-11eb-9749-7f23aaa8b246.png">
 
 ## Inspiration ⚡
 In 2017, 46.6 million adults in the U.S. were treated for a mental illness, representing nearly 20% of the adult population, yet the percentage of women being treated for mental illness was almost 50% higher than the percentage of men and non binary are not even in the statistics. The gender minorities face a lot of mental and physical issues. So I bring to you Regina.
@@ -13,9 +12,16 @@ Regina is latin for Queen. I believe a queen is someone who is mentally strong, 
 
 ## What is it? 👸🏻
 The regina consists of three software subsystems. 
+
+<img width="1440" alt="Screenshot 2021-06-06 at 5 52 55 PM" src="https://user-images.githubusercontent.com/63084088/120925387-0dc1ef00-c6f6-11eb-8087-5444c1d45f2d.png">
+
 Firstly I have a web application which keeps a track of your happiness index. You simply login to your dashboard and select the emoji best describing your day. Then a graph is generated according to your records. This motivates the person to keep trying to increase their happiness index and keep a check on their mental health. You can also update your profile and if you forget your password, you can reset it and you will receive a secure link to change it in your mail.
 
+<img width="1440" alt="Screenshot 2021-06-06 at 5 53 25 PM" src="https://user-images.githubusercontent.com/63084088/120925395-1286a300-c6f6-11eb-8e56-be166113d412.png">
+
 The second part of regina is a chrome extension to talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So you can freely talk to anyone anywhere. It can blur videos, chats, participant list etc and you simply hover over it to see.
+
+<img width="1440" alt="Screenshot 2021-06-06 at 5 53 56 PM" src="https://user-images.githubusercontent.com/63084088/120925400-161a2a00-c6f6-11eb-89c8-1603b5762179.png">
 
 Lastly, I have an AR application that teaches you some very crucial self-defence moves. You can either watch it in VR on the website or you can also download the app to get the full Augmented Reality experience. You can simply tap on the move you want to learn and the instructor will teach you how to do it.
 
@@ -36,4 +42,13 @@ I learnt how to integrate firebase and firestore with react, create map elements
 
 ## What's next for TheRegina 👑
 Currently TheRegina is terms of snopping data breeches only makes Google meet secured the chrome extension can be extended other social media platforms and apps as in Microsoft teams , Discord and more. TheRegina fitness trainer hosting on cloud to make the rendering fast and quick. The web application emotion scaling after proper research on the number can be either scaled up to more emotions or scaled down to less. Social media share buttons will be added so that people can share their graphs showing their happiness index.    
+
+## Important Links 🔴
+1. <a href="https://youtu.be/s7FLhPg-vho">Youtube</a>
+2. <a href="https://theregina.co">Landing Page</a>
+3. <a href="https://theregina.co/login">Happiness Index</a>
+4. <a href="https://theregina.co/safemeet">Chrome Extension</a>
+5. <a href="https://theregina.tech/">AR Self Defence</a>
+
+<img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
 
