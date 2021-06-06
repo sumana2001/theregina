@@ -22,7 +22,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     headline: 'Stay happy!😁',
     description:
-      'In this fast going world, keep a track of your mental health. Login to your dashboard and tell me your mood everyday. I will help you see the improvement in your happiness with the help of a graph. Check your happiness index today! ',
+      'In this fast going world, keep a track of your mental health. Login to your dashboard and record your mood. You can see the improvement in your happiness with the help of a graph. Check your happiness index today! ',
     buttonLabel: 'Login',
     imgStart: 'start',
     img: require('../images/happy.png').default,
@@ -39,8 +39,8 @@ export const homeObjOne = {
     lightTextDesc: true,
     headline: 'Stay safe!🔒',
     description:
-      "Feeling low? Talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So freely talk to anyone anywhere.",
-    buttonLabel: 'Meet now',
+      "Feeling low? Talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So freely talk to anyone anywhere. Let's make google meet private in public.",
+    buttonLabel: 'Learn More',
     imgStart: '',
     img:require('../images/safe.gif').default,
     alt: 'Safe',

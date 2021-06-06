@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#000')};
 `;
 
@@ -67,8 +67,9 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.h1`
+margin-top:60px;
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 55px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
@@ -77,8 +78,8 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 23px;
+  line-height: 26px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `;
 
