@@ -1,13 +1,14 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
 import { Footer, InfoSection, Navbar } from "./index";
+import Hero from './Hero/InfoSection'
 
 function Home() {
   return (
     <>
     <Navbar/>
       <div id="home">
-        <InfoSection {...homeObjOne} />
+        <Hero {...homeObjOne} />
       </div>
       <div id="happy">
         <InfoSection {...homeObjTwo} />

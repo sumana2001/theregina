@@ -4,14 +4,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    headline: 'Headinng 1',
+    headline: 'Hey Queen!👸🏻',
     description:
-      'Body 1',
-    buttonLabel: 'Get Started',
+      'Regina is latin for Queen. A girl is a queen when she is mentally strong, physically strong and sometimes when she gets demotivated, she knows how to get back up. This web application helps you become a queen. Keep slaying! Keep rocking!',
     imgStart: '',
     img: require('../images/home.png').default,
-    alt: 'Credit Card',
-    linkTo:'/machine-2',
+    alt: 'Queen',
+    linkTo:'happy',
     start: ''
   };
   
@@ -21,14 +20,14 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    headline: 'Heading 2',
+    headline: 'Stay happy!😁',
     description:
-      'Body2',
-    buttonLabel: 'Find Speed',
+      'In this fast going world, keep a track of your mental health. Login to your dashboard and tell me your mood everyday. I will help you see the improvement in your happiness with the help of a graph. Check your happiness index today! ',
+    buttonLabel: 'Login',
     imgStart: 'start',
     img: require('../images/happy.png').default,
-    alt: 'Vault',
-    linkTo:'/machine-2',
+    alt: 'happy',
+    linkTo:'/login',
     start: 'true'
   };
   
@@ -38,14 +37,14 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    headline: 'Heading 3',
+    headline: 'Stay safe!🔒',
     description:
-      "Body3",
-    buttonLabel: 'Find Speed',
+      "Feeling low? Talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So freely talk to anyone anywhere.",
+    buttonLabel: 'Meet now',
     imgStart: '',
     img:require('../images/safe.gif').default,
-    alt: 'Vault',
-    linkTo:'/machine-3',
+    alt: 'Safe',
+    linkTo:'/safemeet',
     start: ''
   };
 
@@ -55,14 +54,14 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    headline: 'Heading4',
+    headline: 'Stay strong💪',
     description:
-      'Body4',
-    buttonLabel: 'Find Speed',
+      "With the increasing crime rates all across the world, it is important to know how to defend yourself. Learn some self defence moves in Augmented Reality. This app will help you have some fun along with learning something very crucial in today's world",
+    buttonLabel: 'Learn in AR',
     imgStart: 'start',
     img: require('../images/strong.gif').default,
-    alt: 'Vault',
-    linkTo:'/machine-2',
+    alt: 'strong',
+    linkTo:'/',
     start: 'true'
   };
   
