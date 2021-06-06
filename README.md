@@ -49,6 +49,7 @@ Currently TheRegina is terms of snopping data breeches only makes Google meet se
 3. <a href="https://theregina.co/login">Happiness Index</a>
 4. <a href="https://theregina.co/safemeet">Chrome Extension</a>
 5. <a href="https://theregina.tech/">AR Self Defence</a>
+6. <a href="https://devpost.com/software/the-regina">Devpost Submission</a>
 
 <img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
 
