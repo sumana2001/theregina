@@ -1,8 +1,9 @@
 import React from 'react'
 import { Footer, InfoSection, Navbar } from '../pages'
-import {homeObjThree, homeObjTwo} from "../pages/Data"
+import {homeObjFive, homeObjSix} from "../pages/Data"
 import styled from 'styled-components'
 import { Button } from '../pages/InfoSection/InfoSection.elements'
+import InfoSec from '../pages/InfoExtension/InfoSection'
 
 const Hero=styled.div`
 color: #000;
@@ -51,8 +52,8 @@ function Safemeet() {
                   </a>
                   </Div>
             </Hero>
-            <InfoSection {...homeObjThree} />
-            <InfoSection {...homeObjTwo} />
+
+            <InfoSec/>
             <Footer/>
         </div>
     )

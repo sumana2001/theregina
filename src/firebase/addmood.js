@@ -8,7 +8,7 @@ export default function AddMood(mood, currentUser) {
     "-" +
     (today.getMonth() + 1) +
     "-" +
-    (today.getDate() + 4);
+    (today.getDate());
   console.log(typeof date);
   const db = firebase.firestore();
   var firebaseUser = currentUser;

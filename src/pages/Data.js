@@ -61,9 +61,7 @@ export const homeObjOne = {
     imgStart: 'start',
     img: require('../images/strong.gif').default,
     alt: 'strong',
-    linkTo:'/',
+    linkTo:'https://sumana2001.github.io/thereginaAR/',
     start: 'true'
   };
-  
-
   

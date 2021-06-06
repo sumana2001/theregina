@@ -14,7 +14,7 @@ padding-right:5%;
 `
 
 const Button=styled.h1`
-  font-size:70px;
+  font-size:120px;
   cursor:pointer;
   @media screen and (max-width:768px){
     font-size:50px;
@@ -27,11 +27,11 @@ export const UserInput = () => {
   return (
     <>
     <Container>
-      <Button onClick={() => AddMood(1, currentUser)}>😞</Button>
+      <Button onClick={() => AddMood(1, currentUser)}>😭</Button>
       <Button onClick={() => AddMood(2, currentUser)}>🥺</Button>
-      <Button onClick={() => AddMood(3, currentUser)}>😶</Button>
-      <Button onClick={() => AddMood(4, currentUser)}>🙂</Button>
-      <Button onClick={() => AddMood(5, currentUser)}>😁</Button>
+      <Button onClick={() => AddMood(3, currentUser)}>😐</Button>
+      <Button onClick={() => AddMood(4, currentUser)}>🥰</Button>
+      <Button onClick={() => AddMood(5, currentUser)}>🥳</Button>
       </Container>
     </>
   );

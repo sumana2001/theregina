@@ -9,7 +9,8 @@ import Navbar from "./NavDashboard";
 import styled from 'styled-components';
 
 const Heading=styled.h1`
-font-family: 'Tangerine', cursive;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 background:black;
 color:#fff;
 margin-top:5%;
@@ -40,7 +41,7 @@ export default function Dashboard() {
       <Card style={{zIndex:1}}>
         <Card.Body>
           <h1 className="text-center mb-4 quote">Be happy for this moment. This moment is your life.<br/>
-          So, how's your mood today?</h1>
+          So, how's your mood today? Select the emoji👇</h1>
           {error && <Alert variant="danger">{error}</Alert>}
         </Card.Body>
         <Firestore />
