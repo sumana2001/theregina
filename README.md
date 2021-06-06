@@ -1,7 +1,6 @@
 
 <h1 align='center'> The Regina 👑</h1>
 <p align='center'>
-<img alt="GitHub" src="https://img.shields.io/github/license/betaoverflow/gaboon?olor=green&style=for-the-badge">&nbsp;
 <img src='http://ForTheBadge.com/images/badges/built-by-developers.svg'>&nbsp;<img src='http://ForTheBadge.com/images/badges/built-with-love.svg'>
 </p>
 <img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
@@ -26,6 +25,14 @@ The product consists of various software subsystems which were combined to make 
 ## Challenges with TheRegina 🥺
 The biggest challenge was human emotions are fuzzy numbers which cannot be scaled by linear scaling. To actually know how the person actually in actually feels in a week or a span of month and make the graphs actually research ready we need servers which are fast and database which can hold huge amount of data. Scaling human emotion on a scale from 1-5 is just an approximate and probabilistic approach to know how girls and non binary actually feel.Talking about the AR part including more moves and animating them on blender will make the model large and difficult to render on usual runtime making it difficult to place the product for production. 
 
+## Challenges I ran into 😶 
+Being a beginner in software development, I had no experience using firebase and firestore. Storing and fetching data took a huge amount of time as I kept getting errors. In the chrome extension part, selecting the exact ids was pretty difficult and confusing. I also faced a lot of problem configuring the dns server while hosting.
+
+## Accomplishments that I am proud of 😎
+I was able to overcome all the challenges and was able to create a completely functional prototype. I was able to fetch the data and make the graph as I had envisioned and also the AR model came out to be pretty good and the animations were working smoothly. I am most proud of the fact that this product will be able to help many people across the globe.
+
+## What I learned 👩‍💻
+I learnt how to integrate firebase and firestore with react, create map elements and fetch data and convert the corresponding key values pairs into a graph. Once I got to know how to select the ids in the website, making the chrome extension went smoothly. Although I had experience working with AR, this was the first time I made the project in WebGL platform. And finally, I was able to integrate all the three software subsystems in one place.
 
 ## What's next for TheRegina 👑
 Currently TheRegina is terms of snopping data breeches only makes Google meet secured the chrome extension can be extended other social media platforms and apps as in Microsoft teams , Discord and more. TheRegina fitness trainer hosting on cloud to make the rendering fast and quick. The web application emotion scaling after proper research on the number can be either scaled up to more emotions or scaled down to less. Social media share buttons will be added so that people can share their graphs showing their happiness index.    
