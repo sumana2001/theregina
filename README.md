@@ -98,10 +98,3 @@ Currently TheRegina is terms of snopping data breeches only makes Google meet se
 6. <a href="https://devpost.com/software/the-regina">Devpost Submission</a>
 
 <img src='https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/556/854/datas/full_width.png'>
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> eda458268b3be1453659289b123bb6a0dcdf5908
