@@ -21,7 +21,7 @@ const WebsiteRights = styled.p`
 function Footer() {
   return (
     <FooterContainer>
-      <WebsiteRights>{'<>' } with &hearts; by Sumana</WebsiteRights>
+      <WebsiteRights>Made with &hearts;</WebsiteRights>
        
     </FooterContainer>
   );
